@@ -22,7 +22,7 @@ public class Hello extends HttpServlet {
         out.print("<b>ContextPath:</b>" + req.getContextPath() + "<br/> "
                 + "<b>PathInfo:</b> "       + req.getPathInfo() + "<br/>"
                 + "<b>PathTranslated:</b> " + req.getPathTranslated() + "<br/>"
-                + "<b>RequestURI:</b> " + req.getRequestURI() + "<br/>"
+                + "<b>RequestURI:</b> " + req.getRequestURI() + "<br/>"  
         
         
         );
